@@ -34,7 +34,7 @@ namespace SeleniumTest.Pages
 
         internal string FolderName()
         {
-            
+            log.Info(folderName.Text);
             return folderName.Text;
         }
     }
