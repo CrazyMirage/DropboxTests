@@ -20,7 +20,7 @@ namespace SeleniumTest.Steps
         {
             driver = DriverInstance.Instance();
             driver.Manage().Timeouts().SetPageLoadTimeout(TimeSpan.FromSeconds(60));
-            driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(30));
+            driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(60));
             log.Info("Browser is started.");
         }
 

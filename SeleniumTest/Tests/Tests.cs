@@ -62,6 +62,7 @@ namespace SeleniumTest.Tests
             steps.CreateFolder(folder);
             var url = steps.ShareFolder(folder);
             Assert.IsNotNull(url);
+            Assert.IsFalse(steps.IsAnonymousUser());
             Assert.IsTrue(steps.IsFolderShared(url,folder));
         }
 
