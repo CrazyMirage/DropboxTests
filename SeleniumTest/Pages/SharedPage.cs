@@ -16,7 +16,7 @@ namespace SeleniumTest.Pages
         private IWebDriver driver;
         private static readonly ILog log = LogManager.GetLogger(typeof(MainPage));
 
-        [FindsBy(How = How.CssSelector, Using = ".filename.shmodel-filename")]
+        [FindsBy(How = How.CssSelector, Using = ".display-name")]
         private IWebElement folderName;
 
         public SharedPage(IWebDriver driver, string url)
