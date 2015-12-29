@@ -47,3 +47,47 @@
 2015-12-29 12:26:17,419 [Worker#STA_NP] INFO  SeleniumTest.Pages.MainPage - Sign out is performed
 2015-12-29 12:26:17,421 [Worker#STA_NP] INFO  SeleniumTest.Pages.MainPage - Go to home page: (https://www.dropbox.com/home)
 2015-12-29 12:26:18,938 [Worker#STA_NP] INFO  SeleniumTest.Steps.BasicSteps - Browser is closed.
+2015-12-29 15:47:29,225 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Browser is started.
+2015-12-29 15:47:29,241 [TestRunnerThread] INFO  SeleniumTest.Tests.Tests - CreateFolder test started
+2015-12-29 15:47:29,268 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Go to main page: (https://www.dropbox.com)
+2015-12-29 15:47:43,258 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Log in is permormed.
+2015-12-29 15:47:43,259 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Login steps are performed.
+2015-12-29 15:47:53,259 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Folder is created
+2015-12-29 15:47:53,260 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - CreateFolder steps are performed.
+2015-12-29 15:47:54,565 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Browser is closed.
+2015-12-29 15:47:56,310 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Browser is started.
+2015-12-29 15:47:56,310 [TestRunnerThread] INFO  SeleniumTest.Tests.Tests - DeleteFolder test started
+2015-12-29 15:47:56,311 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Go to main page: (https://www.dropbox.com)
+2015-12-29 15:48:09,669 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Log in is permormed.
+2015-12-29 15:48:09,669 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Login steps are performed.
+2015-12-29 15:48:17,254 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Folder is created
+2015-12-29 15:48:17,254 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - CreateFolder steps are performed.
+2015-12-29 15:48:18,788 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Folder is deleted
+2015-12-29 15:48:18,788 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - DeleteFolder steps are performed.
+2015-12-29 15:48:19,989 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Browser is closed.
+2015-12-29 15:48:21,706 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Browser is started.
+2015-12-29 15:48:21,707 [TestRunnerThread] INFO  SeleniumTest.Tests.Tests - LoginToSite test started
+2015-12-29 15:48:21,708 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Go to main page: (https://www.dropbox.com)
+2015-12-29 15:48:34,671 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Log in is permormed.
+2015-12-29 15:48:34,672 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Login steps are performed.
+2015-12-29 15:48:42,060 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Browser is closed.
+2015-12-29 15:48:43,758 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Browser is started.
+2015-12-29 15:48:43,759 [TestRunnerThread] INFO  SeleniumTest.Tests.Tests - ShareFolder test started
+2015-12-29 15:48:43,760 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Go to main page: (https://www.dropbox.com)
+2015-12-29 15:48:57,219 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Log in is permormed.
+2015-12-29 15:48:57,220 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Login steps are performed.
+2015-12-29 15:49:07,739 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Folder is created
+2015-12-29 15:49:07,740 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - CreateFolder steps are performed.
+2015-12-29 15:49:09,277 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Folder is shared
+2015-12-29 15:49:09,414 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - ShareFolder steps are performed.
+2015-12-29 15:49:11,112 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Sign out is performed
+2015-12-29 15:49:11,115 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Go to share page: (https://www.dropbox.com/sh/b1a5srasoy8ehzc/AAD6-q-nbYpINgwxrQQHHvmUa?dl=0)
+2015-12-29 15:49:15,034 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Browser is closed.
+2015-12-29 15:49:16,771 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Browser is started.
+2015-12-29 15:49:16,772 [TestRunnerThread] INFO  SeleniumTest.Tests.Tests - SignOut test started
+2015-12-29 15:49:16,773 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Go to main page: (https://www.dropbox.com)
+2015-12-29 15:49:34,594 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Log in is permormed.
+2015-12-29 15:49:34,594 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Login steps are performed.
+2015-12-29 15:49:45,895 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Sign out is performed
+2015-12-29 15:49:45,899 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Go to home page: (https://www.dropbox.com/home)
+2015-12-29 15:49:47,687 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Browser is closed.
