@@ -57,10 +57,12 @@ namespace SeleniumTest.Tests
         public void ShareFolder()
         {
             log.Info("ShareFolder test started");
-            var folder = "photos";
+            var folder = Guid.NewGuid().ToString();
             steps.Login(Email, Password);
+            steps.CreateFolder(folder);
             var url = steps.ShareFolder(folder);
             Assert.IsNotNull(url, "Incorrect URL");
+            Assert.IsFalse(steps.IsAnonymousUser(), "User are not anonymous");
             Assert.IsTrue(steps.IsFolderShared(url,folder), "Folder is not shared");
         }
 
