@@ -59,7 +59,6 @@ namespace SeleniumTest.Steps
         {
             var sharedPage = new SharedPage(driver, shareLink);
             sharedPage.OpenPage();
-            WaitTillPageLoad();
             return (sharedPage.FolderName().Trim().ToLower().Equals(folderName));
         }
 

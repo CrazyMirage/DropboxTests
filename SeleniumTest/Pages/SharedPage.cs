@@ -35,6 +35,10 @@ namespace SeleniumTest.Pages
         internal string FolderName()
         {
             log.Info(folderName.Text);
+            log.Info(folderName.Displayed);
+            log.Info(folderName.Enabled);
+            log.Info(folderName.Location);
+            log.Info(folderName.Size);
             return folderName.Text;
         }
     }
