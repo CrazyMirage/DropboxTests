@@ -16,7 +16,7 @@ namespace SeleniumTest.Pages
         private IWebDriver driver;
         private static readonly ILog log = LogManager.GetLogger(typeof(MainPage));
 
-        [FindsBy(How = How.CssSelector, Using = ".display-name")]
+        [FindsBy(How = How.CssSelector, Using = "#folder-title > h3")]
         private IWebElement folderName;
 
         public SharedPage(IWebDriver driver, string url)
@@ -34,11 +34,6 @@ namespace SeleniumTest.Pages
 
         internal string FolderName()
         {
-            log.Info(folderName.Text);
-            log.Info(folderName.Displayed);
-            log.Info(folderName.Enabled);
-            log.Info(folderName.Location);
-            log.Info(folderName.Size);
             return folderName.Text;
         }
     }

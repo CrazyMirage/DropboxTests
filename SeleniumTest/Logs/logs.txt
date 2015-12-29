@@ -129,3 +129,13 @@
 2015-12-29 16:30:09,413 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Go to share page: (https://www.dropbox.com/sh/tkm9k5rm1mly4m5/AADqV5qQWMjvx04mjKtg5jj_a?dl=0)
 2015-12-29 16:30:12,708 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - f05154c5-a4d2-4e9a-bb32-bbf0751a4750
 2015-12-29 16:30:13,058 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Browser is closed.
+2015-12-29 17:24:46,573 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Browser is started.
+2015-12-29 17:24:46,587 [TestRunnerThread] INFO  SeleniumTest.Tests.Tests - ShareFolder test started
+2015-12-29 17:24:46,595 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Go to main page: (https://www.dropbox.com)
+2015-12-29 17:24:59,071 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Log in is permormed.
+2015-12-29 17:24:59,071 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Login steps are performed.
+2015-12-29 17:25:11,208 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Folder is shared
+2015-12-29 17:25:11,382 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - ShareFolder steps are performed.
+2015-12-29 17:25:13,384 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Sign out is performed
+2015-12-29 17:25:13,385 [TestRunnerThread] INFO  SeleniumTest.Pages.MainPage - Go to share page: (https://www.dropbox.com/sh/s21qfo3qstewfac/AAAyjcuz-Ou3_PkT8TC9Lobba?dl=0)
+2015-12-29 17:25:17,286 [TestRunnerThread] INFO  SeleniumTest.Steps.BasicSteps - Browser is closed.
