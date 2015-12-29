@@ -19,10 +19,11 @@ namespace SeleniumTest.Driver
         {
             if (driver == null)
             {
-                ChromeOptions options = new ChromeOptions();
-                options.AddArgument("--start-maximized");
-                driver = new ChromeDriver(options);
-                driver.Manage().Window.Maximize();
+                //ChromeOptions options = new ChromeOptions();
+                //options.AddArgument("--start-maximized");
+                driver = new ChromeDriver();
+                //driver.Manage().Window.Maximize();
+                driver.Manage().Window.Size = new System.Drawing.Size() { Height = 1084, Width = 1920 };
             }
             return driver;
         }
