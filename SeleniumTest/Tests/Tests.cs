@@ -61,9 +61,10 @@ namespace SeleniumTest.Tests
             steps.Login(Email, Password);
             steps.CreateFolder(folder);
             var url = steps.ShareFolder(folder);
-            Assert.IsNotNull(url);
-            Assert.IsFalse(steps.IsAnonymousUser());
-            Assert.IsTrue(steps.IsFolderShared(url,folder));
+            steps.SignOut();
+            Assert.IsNotNull(url, "Incorrect URL");
+            Assert.IsFalse(steps.IsAnonymousUser(), "User are not anonymous");
+            Assert.IsTrue(steps.IsFolderShared(url,folder), "Folder is not shared");
         }
 
         [TestCase(Description = "Folder deleted successfully.")]

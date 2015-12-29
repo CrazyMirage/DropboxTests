@@ -57,7 +57,6 @@ namespace SeleniumTest.Steps
 
         public bool IsFolderShared(string shareLink, string folderName)
         {
-            SignOut();
             var sharedPage = new SharedPage(driver, shareLink);
             sharedPage.OpenPage();
             return (sharedPage.FolderName().Trim().ToLower().Equals(folderName));
